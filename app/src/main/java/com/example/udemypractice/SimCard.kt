@@ -1,9 +1,9 @@
 package com.example.udemypractice
 
 import android.util.Log
-import javax.inject.Inject
 
-class SimCard @Inject constructor(servicePRovider: ServicePRovider) {
+
+class SimCard(servicePRovider: ServicePRovider) {
 init {
     getSimCard()
 }

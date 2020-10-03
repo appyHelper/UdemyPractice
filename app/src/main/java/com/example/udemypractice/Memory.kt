@@ -1,9 +1,9 @@
 package com.example.udemypractice
 
 import android.util.Log
-import javax.inject.Inject
 
-class Memory @Inject constructor() {
+
+class Memory  {
     init {
         getMemory()
     }

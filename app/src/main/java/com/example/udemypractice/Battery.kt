@@ -1,9 +1,9 @@
 package com.example.udemypractice
 
 import android.util.Log
-import javax.inject.Inject
 
-class Battery @Inject constructor() {
+
+class Battery {
 
     init{
         getBattery()

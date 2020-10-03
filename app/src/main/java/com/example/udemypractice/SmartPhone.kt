@@ -1,9 +1,9 @@
 package com.example.udemypractice
 
 import android.util.Log
-import javax.inject.Inject
 
-class SmartPhone @Inject constructor(battery: Battery,memory: Memory,simCard: SimCard){
+
+class SmartPhone(battery: Battery,memory: Memory,simCard: SimCard){
 
 
     fun getSmartPhone(){
