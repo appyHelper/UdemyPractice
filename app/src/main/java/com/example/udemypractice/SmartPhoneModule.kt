@@ -22,5 +22,8 @@ class SmartPhoneModule {
         return Memory()
     }
 
-
+     @Provides
+     fun getExtraMemory():ExtraMemory{
+         return ExtraMemoryImplementor()
+     }
 }
